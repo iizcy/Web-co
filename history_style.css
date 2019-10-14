@@ -27,6 +27,7 @@ body{
     top:0;
     z-index: 4;
     transition: top 0.8s;
+    text-align: center;
 
 }
 .navbar ul{
@@ -96,7 +97,7 @@ body{
     text-align: center;
     position: absolute;
     top: 70%;
-    left: 10%;
+    left: 12%;
     transition: translateY(-50%);
     
 }
