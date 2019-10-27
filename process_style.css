@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Taviraj');
 @import url('https://fonts.googleapis.com/css?family=Sarabun:200&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Kanit500&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css?family=Kanit500&display=swap'); */
+
 * {
     margin: 0;
     padding: 0;
@@ -106,6 +108,7 @@ body {
 
 .main-text2 {
     position: relative;
+    /* height: 430%; */
     overflow: hidden;
 }
 
@@ -137,13 +140,96 @@ h1 {
     color: #434264;
     font-family: 'Sarabun', sans-serif;
     left: 53%;
-    top: 2%;
+    top: 1%;
     line-height: 170%;
 }
 
-b {
+.text1 b {
+    font-size: 1em;
     color: #418482;
     font-family: 'Kanit', sans-serif;
+}
+
+.text2 {
+    width: 50%;
+    position: absolute;
+    font-size: 1.2em;
+    color: #E97625;
+    font-family: 'Kanit', sans-serif;
+    top: 13.5%;
+    left: 10%;
+    line-height: 170%;
+    text-align: center;
+}
+
+.text2 p {
+    left: 13%;
+    position: absolute;
+}
+
+.ask {
+    width: 17%;
+    position: ABSOLUTE;
+    left: 85%;
+    margin-top: -3%;
+}
+
+.text3 b {
+    color: #418482;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+    line-height: 170%;
+    font-weight: 100;
+}
+
+.text3 {
+    width: 30%;
+    position: absolute;
+    font-size: 1em;
+    color: #434264;
+    font-family: 'Sarabun', sans-serif;
+    top: 18%;
+    left: 11%;
+    line-height: 170%;
+    text-align: justify;
+}
+
+.text4 {
+    width: 33%;
+    position: absolute;
+    font-size: 1em;
+    color: #434264;
+    font-family: 'Sarabun', sans-serif;
+    top: 47%;
+    left: 57%;
+    line-height: 170%;
+    text-align: justify;
+}
+
+.text4 b {
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+    color: #418482;
+    font-weight: 100;
+}
+
+.text5 {
+    width: 33%;
+    position: absolute;
+    font-size: 1em;
+    color: #434264;
+    font-family: 'Sarabun', sans-serif;
+    top: 68%;
+    left: 57%;
+    line-height: 170%;
+    text-align: justify;
+}
+
+.text5 b {
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+    color: #418482;
+    font-weight: 100;
 }
 
 
@@ -158,6 +244,7 @@ b {
 }
 
 .cow2 {
+    z-index: 1;
     margin-left: -16%;
     width: 130%;
     position: relative;
@@ -171,4 +258,18 @@ b {
     position: ABSOLUTE;
     MARGIN-LEFT: -45%;
     z-index: 1;
+}
+
+.cloud2 {
+    width: 25%;
+    position: ABSOLUTE;
+    top: 18%;
+    right: -34px;
+}
+
+.cloud3 {
+    width: 31%;
+    position: ABSOLUTE;
+    top: 63.5%;
+    right: -79px;
 }
