@@ -102,8 +102,9 @@ body {
 
 .topic-text {
     width: auto;
-    height: 70%;
-    margin-top: 15%;
+    height: 60%;
+    margin-top: 25%;
+    position: relative;
 }
 
 h1 {
@@ -112,14 +113,15 @@ h1 {
     right: 13%;
     text-align: center;
     letter-spacing: 2px; */
+    position: absolute;
     padding-top: 10%;
-    padding-left: 30%;
+    left: 50%;
     text-align: center;
     letter-spacing: 2px;
 }
 
 .topic-main {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #3C6868;
     font-family: 'Kanit', sans-serif;
 }
@@ -128,6 +130,7 @@ h1 {
     font-size: 1em;
     color: #E97625;
     font-family: 'Kanit', sans-serif;
+    font-weight: 100;
 }
 
 .cow1 {
@@ -142,12 +145,168 @@ h1 {
 .text2 {
     position: relative;
     width: 100%;
-    height: 100%;
-    top: 15%;
+    height: 50%;
+    top: 850px;
 }
 
 .car1 {
     position: absolute;
     width: 60%;
     left: -5%;
+}
+
+.text2 p {
+    font-size: 1.2em;
+    font-family: 'Kanit', sans-serif;
+    color: #434264;
+    position: absolute;
+    left: 55%;
+    top: 250px;
+}
+
+.text2 b {
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+    color: #418482;
+    font-weight: 100;
+}
+
+
+/* text3-pic_cow2 */
+
+.text3 {
+    position: relative;
+    width: auto;
+    height: 50%;
+    top: 1300px;
+}
+
+.cow2 {
+    position: absolute;
+    width: 60%;
+    left: -3;
+    left: 50%;
+}
+
+.text3 b {
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+    color: #418482;
+    font-weight: 100;
+}
+
+.text3 p {
+    font-size: 1.2em;
+    font-family: 'Kanit', sans-serif;
+    color: #434264;
+    position: absolute;
+    left: 20%;
+    top: 400px;
+    text-align: right;
+}
+
+
+/* text4-pic_cow3_milk*/
+
+.text4 {
+    position: relative;
+    width: auto;
+    height: 50%;
+    top: 2000px;
+}
+
+.milk {
+    position: absolute;
+    width: 30%;
+    left: 15%;
+}
+
+.cow3 {
+    position: absolute;
+    width: 50%;
+    top: 300px;
+    left: 32%;
+}
+
+.text4 b {
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+    color: #418482;
+    font-weight: 100;
+}
+
+.text4 p {
+    font-size: 1.2em;
+    font-family: 'Kanit', sans-serif;
+    color: #434264;
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    width: 30%;
+}
+
+
+/* text5-pic__milk2*/
+
+.text5 {
+    position: relative;
+    width: auto;
+    height: 50%;
+    top: 2900px;
+}
+
+.milk2 {
+    position: absolute;
+    width: 50%;
+    left: 53%;
+}
+
+.text5 b {
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+    color: #418482;
+    font-weight: 100;
+}
+
+.text5 p {
+    font-size: 1.2em;
+    font-family: 'Kanit', sans-serif;
+    color: #434264;
+    position: absolute;
+    left: 20%;
+    top: 10px;
+    width: 30%;
+    text-align: right;
+}
+
+
+/* text6-pic_foot*/
+
+.text6 {
+    position: relative;
+    width: auto;
+    height: 150%;
+    top: 2880px;
+    margin-bottom: -11%;
+}
+
+.foot {
+    position: absolute;
+    width: 138%;
+    left: -20%;
+}
+
+.text6 p {
+    font-size: 1.8em;
+    font-family: 'Kanit', sans-serif;
+    color: #434264;
+    position: absolute;
+    left: 55%;
+    top: 600px;
+    width: 30%;
+    text-align: center;
+}
+
+.text6 p1 {
+    color: #E97625;
 }
