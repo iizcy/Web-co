@@ -31,7 +31,7 @@ body {
 
 .navbar {
     background-color: transparent;
-    width: 100%;
+    width: 100vw;
     height: 10%;
     position: fixed;
     display: flex;
@@ -92,12 +92,17 @@ body {
     display: inline-block
 }
 
+.main {
+    width: auto;
+    position: relative;
+}
+
 
 /* main txet*/
 
 .main-text {
     width: 100%;
-    height: 80%;
+    height: 800px;
     position: relative;
     text-align: center;
     display: flex;
@@ -109,8 +114,7 @@ body {
 .main-text2 {
     position: relative;
     /* height: 430%; */
-    overflow: hidden;
-    margin-bottom: -11%;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -220,7 +224,7 @@ h1 {
     font-size: 1em;
     color: #434264;
     font-family: 'Sarabun', sans-serif;
-    top: 68%;
+    top: 70%;
     left: 57%;
     line-height: 170%;
     text-align: justify;
@@ -245,10 +249,10 @@ h1 {
 }
 
 .cow2 {
-    z-index: 1;
-    margin-left: -12%;
-    width: 130%;
+    width: 125%;
     position: relative;
+    left: -8%;
+    z-index: 2;
 }
 
 
@@ -259,18 +263,60 @@ h1 {
     position: ABSOLUTE;
     MARGIN-LEFT: -45%;
     z-index: 1;
+    animation: mymove 8s infinite;
 }
 
 .cloud2 {
     width: 25%;
     position: ABSOLUTE;
     top: 18%;
-    right: -34px;
+    right: 60px;
+    animation: mymove 10s infinite;
 }
 
 .cloud3 {
     width: 31%;
     position: ABSOLUTE;
     top: 63.5%;
-    right: -79px;
+    right: -15px;
+    animation: mymove 8s infinite;
+}
+
+.cloud4 {
+    width: 15%;
+    position: ABSOLUTE;
+    top: 55%;
+    left: -5%;
+    animation: mymove2 10s infinite;
+}
+
+.cloud5 {
+    width: 18%;
+    position: ABSOLUTE;
+    right: 3%;
+    top: 10%;
+    animation: mymove2 13s infinite;
+}
+
+
+/* animation cloud */
+
+@keyframes mymove {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(150px, 0);
+    }
+}
+
+@keyframes mymove2 {
+    0%,
+    100% {
+        transform: translate(150px, 0);
+    }
+    50% {
+        transform: translate(0px, 0);
+    }
 }

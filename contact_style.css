@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
+@import url('https://fonts.googleapis.com/css?family=Sarabun:200&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css?family=Kanit500&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background: linear-gradient(to bottom, #ffffff 15%, #c5e9ef 100%) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+
+/* .bg-process {
+    background: linear-gradient(to bottom, #ffffff 65%, #c5e9ef 100%);
+    height: 100%;
+    width: 100%;
+} */
+
+
+/* navbar */
+
+.navbar {
+    background-color: transparent;
+    width: 100vw;
+    height: 10%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    z-index: 4;
+    transition: top 0.8s;
+}
+
+.nav {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.navbar ul {
+    position: relative;
+    left: 4.5%;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    text-align: center;
+    float: left;
+    width: 10%;
+    padding: 1.5%;
+}
+
+#logo img {
+    margin-top: -12%;
+    width: 70%;
+}
+
+#con img {
+    width: 50%;
+    margin-left: -30%;
+    margin-top: 3%;
+}
+
+#home img {
+    width: 50%;
+    margin-left: 30%;
+    margin-top: -2%;
+}
+
+
+/* hover menu */
+
+.menu img:last-child {
+    display: none
+}
+
+.menu:hover img:first-child {
+    display: none
+}
+
+.menu:hover img:last-child {
+    display: inline-block
+}
+
+.main {
+    width: auto;
+    position: relative;
+}
+
+
+/* home-cow-grass */
+
+
+/* plan1 */
+
+.con {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grass {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    z-index: 2;
+}
+
+.email {
+    position: absolute;
+    width: 25%;
+    top: 40%;
+    left: 13%;
+    z-index: 3;
+}
+
+.facebook {
+    position: absolute;
+    width: 17%;
+    top: 24%;
+    left: 33%;
+    z-index: 3;
+}
+
+.address {
+    position: absolute;
+    width: 27%;
+    top: 28%;
+    left: 60%;
+    z-index: 3;
+}
+
+.cloud {
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    width: 100%;
+    animation: animateCloud 35s linear infinite;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    width: 100%;
+    animation: animateCloud2 70s linear infinite;
+}
+
+
+/* .cloud .c1 {
+    position: absolute;
+    width: 20%;
+    top: 250px;
+    left: -7%;
+    animation: animateCloud 35s linear infinite;
+}
+
+.cloud .c2 {
+    position: absolute;
+    width: 20%;
+    top: 85px;
+    left: 23%;
+    animation: animateCloud 35s linear infinite;
+}
+
+.cloud .c3 {
+    position: absolute;
+    width: 20%;
+    top: 100px;
+    left: 54%;
+    animation: animateCloud 35s linear infinite;
+}
+
+.cloud .c4 {
+    position: absolute;
+    width: 15%;
+    top: 300px;
+    left: 80%;
+    animation: animateCloud 35s linear infinite;
+} */
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -2000px;
+    }
+    100% {
+        margin-left: 2200px;
+    }
+}
+
+@keyframes animateCloud2 {
+    0% {
+        margin-left: -4000px;
+    }
+    100% {
+        margin-left: 4200px;
+    }
+}
+
+
+/* plan2 */
+
+
+/* .con {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.grass1 {
+    position: relative;
+}
+
+.grass {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.email {
+    position: absolute;
+    width: 25%;
+    top: -3%;
+    left: 13%;
+}
+
+.facebook {
+    position: absolute;
+    width: 17%;
+    top: -38%;
+    left: 33%;
+}
+
+.address {
+    position: absolute;
+    width: 27%;
+    top: -29%;
+    left: 60%;
+} */
