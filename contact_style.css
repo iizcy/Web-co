@@ -195,19 +195,19 @@ body {
 
 @keyframes animateCloud {
     0% {
-        margin-left: -2000px;
+        margin-left: -1600px;
     }
     100% {
-        margin-left: 2200px;
+        margin-left: 1600px;
     }
 }
 
 @keyframes animateCloud2 {
     0% {
-        margin-left: -4000px;
+        margin-left: -3200px;
     }
     100% {
-        margin-left: 4200px;
+        margin-left: 3200px;
     }
 }
 
