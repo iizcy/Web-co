@@ -11,7 +11,7 @@
     background-color: transparent;
     width: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: 9;
 }
 
 .a {
@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 375px) {
     .topnav.responsive {
-        z-index: 2;
+        z-index: 9;
     }
     .topnav.responsive .icon {
         position: absolute;

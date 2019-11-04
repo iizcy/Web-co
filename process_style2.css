@@ -305,6 +305,10 @@ h1 {
     animation: mymove2 13s infinite;
 }
 
+.cow_mb {
+    display: none;
+}
+
 
 /* animation cloud */
 
@@ -489,8 +493,16 @@ h1 {
 /* new plattern */
 
 @media only screen and (max-width: 775px) {
+    .cow_mb {
+        display: block;
+        width: 210%;
+        position: relative;
+        right: 43%;
+        margin-top: 60%;
+        z-index: 2;
+    }
     .main-text {
-        height: 1100px;
+        height: 1000px;
     }
     .cow1 {
         width: 140%;
@@ -503,39 +515,44 @@ h1 {
         margin-right: 0%;
     }
     .cow2 {
-        width: 200%;
+        /* width: 200%;
         left: -43%;
-        margin-top: 45%;
+        margin-top: 45%; */
+        display: none;
     }
     .text1 {
         font-size: 1.2em;
-        left: 27%;
         line-height: 180%;
-        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        top: 1.5%;
     }
     .text2 {
-        top: 21%;
+        top: 17%;
         font-size: 1.3em;
         width: 75%;
         left: 0%;
     }
     .text3 {
         width: 50%;
-        left: 9%;
-        top: 25%;
-        font-size: 1em;
+        left: 12%;
+        top: 19.5%;
+        font-size: 1.3em;
     }
     .text4 {
-        font-size: 1em;
-        width: 44%;
-        left: 47%;
-        top: 51%;
+        font-size: 1.3em;
+        width: 52%;
+        left: 40%;
+        top: 47%;
     }
     .text5 {
-        font-size: 1em;
-        width: 44%;
-        left: 47%;
-        top: 72%;
+        font-size: 1.3em;
+        width: 52%;
+        left: 40%;
+        top: 75%;
     }
     .cloud1 {
         width: 33%;
@@ -560,17 +577,126 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 685px) {
     .main-text {
-        height: 1000px;
+        height: 950px;
     }
-    .cow2 {
-        margin-top: 48%;
+    .cow_mb {
+        margin-top: 61%;
     }
     .text2 {
-        top: 21%;
-        width: 71%;
+        top: 17%;
+        width: 75%;
         font-size: 1.1em;
         left: 2%;
+    }
+    .text3 {
+        width: 55%;
+        left: 12%;
+        top: 19.5%;
+        font-size: 1.1em;
+    }
+    .text4 {
+        font-size: 1.1em;
+        width: 55%;
+        left: 37%;
+    }
+    .text5 {
+        font-size: 1.1em;
+        width: 55%;
+        left: 37%;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .main-text {
+        height: 850px;
+    }
+    h1 {
+        font-size: 1.2em;
+        margin-top: -69%;
+    }
+    .text1 {
+        top: 0.5%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .main-text {
+        height: 800px;
+    }
+    .text1 {
+        top: 0%;
+        font-size: 1em;
+    }
+    .text2 {
+        width: 81%;
+        font-size: 1em;
+    }
+    .text3 {
+        font-size: 0.9em;
+    }
+    .text4 {
+        font-size: 0.9em;
+    }
+    .text5 {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 493px) {
+    .main-text {
+        height: 700px;
+    }
+    h1 {
+        font-size: 1em;
+        margin-top: -87%;
+    }
+    .text1 {
+        top: 0%;
+        font-size: 0.9em;
+    }
+    .text2 {
+        font-size: 0.7em;
+    }
+    .text3 {
+        font-size: 0.7em;
+    }
+    .text4 {
+        font-size: 0.7em;
+    }
+    .text5 {
+        font-size: 0.7em;
+    }
+}
+
+
+/* responsive iphone6/7/8 mobile */
+
+@media only screen and (max-width: 375px) {
+    .main-text {
+        height: 670px;
+    }
+    h1 {
+        font-size: 0.9em;
+        margin-top: -99%;
+    }
+    .cow_mb {
+        margin-top: 78%;
+    }
+    .text2 {
+        font-size: 0.8em;
+        width: 88%;
+        top: 19%;
+        left: -6%;
+    }
+    .text3 {
+        top: 22%;
+    }
+    .text4 {
+        top: 48%;
+    }
+    .text5 {
+        top: 76%;
     }
 }
