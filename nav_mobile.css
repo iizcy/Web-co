@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+.logo2 {
+    width: 13%;
+    padding-left: 3%;
+    padding-top: 4%;
+    position: absolute;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.a {
+    padding-top: 14px;
+    background-color: white;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #bf744b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* iphone 6/7/8 size */
+
+@media screen and (min-width: 375px) {
+    .topnav a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .topnav a {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .topnav.responsive {
+        z-index: 2;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: transparent;
+        font-size: 23px;
+        padding: 14px 16px;
+        color: #bf744b;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        padding: 2%;
+        background-color: white;
+        color: #bf744b;
+        font-size: 1em;
+    }
+    .topnav.responsive {
+        float: none;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive {
+        display: block;
+        width: 100%;
+        text-align: right;
+        position: fixed;
+        right: 0px;
+    }
+}

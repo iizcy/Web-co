@@ -7,12 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>his2</title>
     <link rel="stylesheet" href="history_style2.css">
+    <link rel="stylesheet" href="nav_mobile.css">
+    <script src="nav_mobile.js"></script>
     <script src="menu_up.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Prompt:300,400" rel="stylesheet">
 
 </head>
 
 <body>
+    <!-- start nav responsive mobile -->
+    <div class="topnav" id="myTopnav">
+        <div class="logo2"><img src="./images/logo.svg" alt=""></div>
+        <a></a>
+        <a></a>
+        <a href="#home">หน้าแรก</a>
+        <a href="history2.html">ประวัติ</a>
+        <a href="process.html">กระบวนการ</a>
+        <a href="tour.html">ท่องเที่ยว</a>
+        <a href="product.html">ผลิตภัณฑ์</a>
+        <a href="contact.html">ติดต่อ</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!-- end nav responsive mobile -->
+
     <section id="navbar" class="navbar">
         <nav class="nav">
             <ul>
@@ -66,7 +84,6 @@
 
         </nav>
     </section>
-
 
     <section class="main-text">
         <h1>
@@ -148,22 +165,6 @@
             <img src="./images/people_his.svg">
         </div>
     </section>
-
-    <!-- <script> แทบเมนูเลื่อนขึ้น
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbar").style.top = "0";
-            } else {
-                document.getElementById("navbar").style.top = "-17%";
-            }
-            prevScrollpos = currentScrollPos;
-        }
-    </script> -->
-
-
-
 
 
 </body>

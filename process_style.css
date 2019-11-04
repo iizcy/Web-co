@@ -109,12 +109,14 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    z-index: 1;
 }
 
 .main-text2 {
     position: relative;
     /* height: 430%; */
     overflow-x: hidden;
+    z-index: 1;
 }
 
 h1 {
@@ -318,5 +320,15 @@ h1 {
     }
     50% {
         transform: translate(0px, 0);
+    }
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 1024px) {
+    .h1 {
+        font-size: 1.5em;
+        margin-top: -13%;
     }
 }

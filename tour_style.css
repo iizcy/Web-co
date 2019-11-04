@@ -96,6 +96,7 @@ body {
 .main {
     width: auto;
     position: relative;
+    z-index: 1;
 }
 
 
