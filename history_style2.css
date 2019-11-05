@@ -100,6 +100,7 @@ body {
 h1 {
     padding-bottom: 10%;
     transition: 1s;
+    width: 90%;
 }
 
 .topic-main {
@@ -467,11 +468,14 @@ h1 {
     .grid-data {
         padding: 10% 0%;
     }
+    h1 {
+        width: 90%;
+    }
     .topic-main {
         font-size: 1.2em;
     }
     .topic-sub {
-        font-size: 0.75em;
+        font-size: 0.7em;
     }
     /* style element */
     /* box1 */
