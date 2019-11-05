@@ -168,6 +168,7 @@ h1 {
     position: absolute;
     left: 55%;
     top: 250px;
+    width: 30%;
 }
 
 .text2 b {
@@ -206,7 +207,7 @@ h1 {
     font-family: 'Kanit', sans-serif;
     color: #434264;
     position: absolute;
-    left: 20%;
+    left: 13%;
     top: 400px;
     text-align: right;
 }
@@ -246,8 +247,8 @@ h1 {
     font-family: 'Kanit', sans-serif;
     color: #434264;
     position: absolute;
-    left: 50%;
-    top: 150px;
+    left: 55%;
+    top: 116px;
     width: 30%;
 }
 
@@ -353,7 +354,7 @@ h1 {
     top: 350px;
     left: 16%;
     animation: mymove2 8s infinite;
-    z-index: ;
+    z-index: 1;
 }
 
 .car1 .cloud3 {
@@ -388,7 +389,6 @@ h1 {
     top: 300px;
     position: absolute;
     left: -8%;
-    z-index: 3;
     animation: mymove2 10s infinite;
 }
 
@@ -412,5 +412,405 @@ h1 {
     }
     50% {
         transform: translate(0px, 0);
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .text2 {
+        top: 750px;
+    }
+    .text3 {
+        top: 1200px;
+    }
+    .text3 p {
+        left: 8%;
+        top: 320px;
+    }
+    .text4 {
+        top: 1900px;
+    }
+    .text4 p {
+        width: 39%;
+    }
+    .text5 {
+        top: 2700px;
+    }
+    .text6 {
+        top: 2680px;
+    }
+    .text6 p {
+        left: 58%;
+        top: 500px;
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    h1 {
+        font-size: 1.3em;
+    }
+    .text2 {
+        top: 650px;
+    }
+    .text2 p {
+        font-size: 1em;
+        top: 200px;
+    }
+    .text3 {
+        top: 1090px;
+    }
+    .text3 p {
+        top: 300px;
+        font-size: 1em;
+        left: 10%;
+    }
+    .cow .cloud2 {
+        top: 250px;
+    }
+    .cow3 {
+        top: 200px;
+    }
+    .text4 {
+        top: 1650px;
+    }
+    .text4 p {
+        font-size: 1em;
+        left: 48%;
+        top: 50px;
+    }
+    .text5 {
+        top: 2350px;
+    }
+    .text5 p {
+        font-size: 1em;
+        top: -19px;
+    }
+    .text6 {
+        top: 2330px;
+    }
+    .text6 p {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    .text2 {
+        top: 550px;
+    }
+    .text3 {
+        top: 890px;
+    }
+    .text3 p {
+        left: 8%;
+        top: 250px;
+    }
+    .text4 {
+        top: 1450px;
+    }
+    .text4 p {
+        width: 39%;
+    }
+    .text5 {
+        top: 2100px;
+    }
+    .text6 {
+        top: 2080px;
+    }
+    .text6 p {
+        left: 55%;
+        top: 380px;
+    }
+    .cow .cloud2 {
+        top: 200px;
+    }
+}
+
+@media only screen and (max-width: 821px) {
+    h1 {
+        font-size: 1em;
+    }
+    .text2 {
+        top: 450px;
+    }
+    .text2 p {
+        font-size: 0.8em;
+        top: 150px;
+    }
+    .text3 {
+        top: 740px;
+    }
+    .text3 p {
+        font-size: 0.8em;
+        left: 8%;
+        top: 220px;
+    }
+    .cow3 {
+        top: 160px;
+    }
+    .text4 {
+        top: 1200px;
+    }
+    .text4 p {
+        font-size: 0.8em;
+        width: 39%;
+        top: 20px;
+    }
+    .text5 {
+        top: 1720px;
+    }
+    .text5 p {
+        font-size: .8em;
+        top: -35px;
+        left: 19%;
+    }
+    .text6 {
+        top: 1700px;
+    }
+    .text6 p {
+        font-size: 1em;
+        top: 300px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    h1 {
+        font-size: 0.8em;
+        left: 44%;
+    }
+    .text2 {
+        top: 350px;
+    }
+    .text2 p {
+        font-size: 0.65em;
+        top: 150px;
+    }
+    .text3 {
+        top: 610px;
+    }
+    .text3 p {
+        font-size: 0.65em;
+        top: 180px;
+    }
+    .text4 {
+        top: 970px;
+    }
+    .text4 p {
+        font-size: 0.65em;
+    }
+    .text5 {
+        top: 1440px;
+    }
+    .text5 p {
+        font-size: 0.65em;
+        left: 22%;
+    }
+    .text6 {
+        top: 1380px;
+    }
+    .text6 p {
+        font-size: 0.85em;
+        top: 280px;
+    }
+    .cow .cloud2 {
+        top: 150px;
+    }
+    .cloud1 .cloud1-3 {
+        top: 500px;
+    }
+}
+
+
+/* new plattern */
+
+@media only screen and (max-width: 570px) {
+    /* text1 */
+    h1 {
+        font-size: 0.85em;
+        left: 28%;
+    }
+    .cow1 {
+        position: absolute;
+        width: 170%;
+        left: -47%;
+        z-index: 2;
+    }
+    .cow .cloud2 {
+        width: 34%;
+        top: 300px;
+        left: -5%;
+    }
+    .cloud1 .cloud1-1 {
+        width: 35%;
+        right: -2%;
+        top: 0px;
+    }
+    .cloud1 .cloud1-2 {
+        width: 15%;
+        top: 130px;
+        right: 25%;
+    }
+    .cloud1 .cloud1-3 {
+        width: 30%;
+        top: 700px;
+        right: -9%;
+    }
+    .text2 {
+        top: 750px;
+        width: 150%;
+        left: -9%;
+    }
+    .car1 .cloud3 {
+        width: 20%;
+        top: 0px;
+        left: -10%;
+    }
+    .car1 .cloud4 {
+        width: 11%;
+        top: 100px;
+        left: 21%;
+        z-index: 1;
+    }
+    .text2 p {
+        font-size: 0.8em;
+        top: -9px;
+        left: 40%;
+        width: 30%;
+    }
+    .text3 {
+        top: 1200px;
+        width: 150%;
+        left: -38%;
+    }
+    .text3 p {
+        font-size: 0.8em;
+        top: 30px;
+        left: 32%;
+    }
+    .cow2 .cloud5 {
+        z-index: 0;
+    }
+    .cow2 .cloud6 {
+        width: 26%;
+        top: 300px;
+        left: 10%;
+    }
+    .text4 {
+        top: 1640px;
+        z-index: 3;
+    }
+    .milk {
+        width: 44%;
+        left: 5%;
+    }
+    .cow3 {
+        width: 85%;
+        top: 250px;
+        left: 8%;
+    }
+    .text4 p {
+        font-size: 0.8em;
+        width: 40%;
+        top: 20px;
+        left: 52%;
+    }
+    .milk2 {
+        width: 80%;
+        left: 30%;
+    }
+    .text5 {
+        top: 2380px;
+    }
+    .text5 p {
+        font-size: 0.8em;
+        width: 37%;
+        left: 13%;
+        top: -130px;
+    }
+    .text6 {
+        top: 2500px;
+    }
+    .text6 p {
+        font-size: 1em;
+        top: 200px;
+        width: 45%;
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    h1 {
+        font-size: 0.65em;
+        left: 30%;
+    }
+    .text2 {
+        top: 600px;
+    }
+    .text2 p {
+        font-size: 0.65em;
+        left: 33%;
+    }
+    .text3 {
+        top: 950px
+    }
+    .text3 p {
+        font-size: 0.65em;
+        left: 28%;
+        top: 35px;
+    }
+    .text4 {
+        top: 1340px;
+    }
+    .text4 p {
+        font-size: 0.65em;
+    }
+    .cow3 {
+        top: 200px;
+    }
+    .text5 {
+        top: 1950px;
+    }
+    .text5 p {
+        font-size: 0.65em;
+    }
+    .text6 {
+        top: 2100px;
+    }
+    .text6 p {
+        font-size: 0.8em;
+        top: 130px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        left: 24%;
+    }
+    .cow .cloud2 {
+        top: 200px;
+    }
+    .cow2 .cloud6 {
+        top: 200px;
+        z-index: 0;
+    }
+    .text2 {
+        top: 500px;
+    }
+    .text3 {
+        top: 840px;
+    }
+    .text4 {
+        top: 1150px;
+    }
+    .cow3 {
+        top: 180px;
+    }
+    .text5 {
+        top: 1700px;
+    }
+    .text6 {
+        top: 1800px;
+    }
+    .text6 p {
+        top: 120px;
     }
 }

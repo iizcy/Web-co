@@ -26,7 +26,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 40px;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -37,13 +37,13 @@
 
 /* iphone 6/7/8 size */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768px) {
     .topnav a {
         display: none;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
     .topnav a {
         display: none;
     }
@@ -56,7 +56,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
     .topnav.responsive {
         z-index: 9;
     }
@@ -65,7 +65,7 @@
         right: 0;
         top: 0;
         background-color: transparent;
-        font-size: 23px;
+        font-size: 40px;
         padding: 14px 16px;
         color: #bf744b;
     }
@@ -75,7 +75,7 @@
         padding: 2%;
         background-color: white;
         color: #bf744b;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .topnav.responsive {
         float: none;
@@ -89,5 +89,29 @@
         text-align: right;
         position: fixed;
         right: 0px;
+    }
+    .logo2 {
+        width: 11%;
+        padding-left: 3%;
+        padding-top: 3%;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .topnav a {
+        font-size: 25px;
+    }
+    .topnav.responsive a {
+        font-size: 1em;
+    }
+    .topnav.responsive .icon {
+        font-size: 25px;
+    }
+    .logo2 {
+        width: 13%;
+        padding-left: 3%;
+        padding-top: 4%;
+        position: absolute;
     }
 }
