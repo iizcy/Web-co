@@ -26,7 +26,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -65,7 +65,7 @@
         right: 0;
         top: 0;
         background-color: transparent;
-        font-size: 40px;
+        font-size: 30px;
         padding: 14px 16px;
         color: #bf744b;
     }
@@ -100,13 +100,13 @@
 
 @media screen and (max-width: 375px) {
     .topnav a {
-        font-size: 25px;
+        font-size: 30px;
     }
     .topnav.responsive a {
         font-size: 1em;
     }
     .topnav.responsive .icon {
-        font-size: 25px;
+        font-size: 30px;
     }
     .logo2 {
         width: 13%;
