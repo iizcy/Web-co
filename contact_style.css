@@ -115,6 +115,27 @@ body {
     z-index: 1;
 }
 
+.wind {
+    position: absolute;
+    width: 10%;
+    left: 76%;
+    bottom: 34%;
+    z-index: 2;
+}
+
+.wind_it {
+    position: absolute;
+    width: 7%;
+}
+
+.roll {
+    position: absolute;
+    width: 95%;
+    right: 48%;
+    top: -61px;
+    z-index: 3;
+}
+
 .home {
     position: fixed;
     bottom: 0;
