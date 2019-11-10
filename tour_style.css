@@ -117,10 +117,11 @@ h1 {
     letter-spacing: 2px; */
     position: absolute;
     padding-top: 10%;
-    left: 45%;
+    left: 20%;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     z-index: 2;
+    width: 90%;
 }
 
 .topic-main {
@@ -575,7 +576,7 @@ h1 {
 @media only screen and (max-width: 660px) {
     h1 {
         font-size: 0.8em;
-        left: 44%;
+        /* left: 44%; */
     }
     .text2 {
         top: 350px;
@@ -626,7 +627,7 @@ h1 {
     /* text1 */
     h1 {
         font-size: 0.85em;
-        left: 28%;
+        left: 15%;
     }
     .cow1 {
         position: absolute;
@@ -740,7 +741,7 @@ h1 {
 @media only screen and (max-width: 455px) {
     h1 {
         font-size: 0.65em;
-        left: 30%;
+        /* left: 30%; */
     }
     .text2 {
         top: 600px;
@@ -786,7 +787,7 @@ h1 {
 
 @media only screen and (max-width: 375px) {
     h1 {
-        left: 24%;
+        /* left: 24%; */
     }
     .cow .cloud2 {
         top: 200px;
